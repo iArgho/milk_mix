@@ -1,0 +1,75 @@
+name: milk_mix
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.1+4
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  flutter_svg: ^2.2.0
+  flutter_screenutil: ^5.9.3
+  carousel_slider: ^5.1.1
+  pin_code_fields: ^8.0.1
+  http: ^1.4.0
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  mime: ^2.0.0
+  http_parser: ^4.1.2
+  # path: ^1.9.1
+  image_picker: ^1.1.2
+  flutter_typeahead: ^5.2.0
+  custom_refresh_indicator: ^4.0.1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  icons_launcher: ^3.0.2
+  # flutter_launcher_icons: ^0.13.1 
+  change_app_package_name: ^1.5.0
+
+# flutter_icons:
+#   android: true
+#   ios: true
+#   image_path: "assets/icons/icon.png"
+
+icons_launcher:
+  image_path: "assets/icons/icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/
+    - assets/backgrounds/
+    - assets/images/
+    - assets/flags/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/InterDisplay-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/InterDisplay-ExtraBold.ttf
+          weight: 800
